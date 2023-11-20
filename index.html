@@ -16,7 +16,7 @@
 </head>
 <body >
      <!-- main container-->
-     <div class=" d-flex">
+     <div class=" d-flex position-relative">
         <!-- navbar lateral -->
         <div class="sidebar row justify-content-centerbg-warning" id="side-nav">
             <div class="header-box d-flex ">
@@ -34,14 +34,14 @@
             </ul>
         </div>
         <!-- seccion principal -->
+        <div class="position-absolute end-0">
+            <button class="d-md-none btn open-btn me-2">
+                <i class="fa-solid fa-bars "></i>
+              </button>
+          </div>
         <div class="content d-flex align-items-center">
               <section class="home hidden">
                 <div class="px-5">
-                    <div class=" w-100 d-flex justify-content-end bg-info my-auto">
-                        <button class=" px-1 py-0 d-md-none btn open-btn  m-3  ">
-                            <i class="fa-solid fa-bars"></i>
-                          </button>
-                      </div>
                     <div class="row  align-items-center pe-5 ">
                         <div class="home-info col col-sm-12  col-md-6 col-lg-8 ">
                             <h3 class="fw-bold">Hola, mi nombre es <span class="Myname">Edwin Salcedo</span></h3>
@@ -60,15 +60,15 @@
                     </div>
                 </div>
               </section>
-
-              <section class="about p-5 ">
-                <div class=" ">
+               <!-- seccion skills-->
+              <section class="bg-info container mx-3 hidden">       
                     <div class="">
                         <h1 class="tittle">Conocimientos </h1>
                         <p class="parrafo">
                             estos son los Lorem ipsum doloamet possimus exercitationem sunt, nulla quam facilis, accusamus excepturi labore quia autem quos voluptates cumque unde.
                         </p>
                     </div>
+                    <!-- grid para los skills -->
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
                             <div class="col ">
                                  <div class="container my-2">
@@ -118,7 +118,7 @@
                            </div>
                            <div class="col ">
                             <div class="container my-2">
-                               <h6>SPRING</h6>
+                               <h6>SPRING BOOT</h6>
                                <div class="progress w-75 ">
                                    <div class="progress-bar bg-skin" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
                                  </div>
@@ -132,7 +132,7 @@
 
                             </div>
                             <div class="container ">
-                               <h6>C#</h6>
+                               <h6>GIT</h6>
                                <div class="progress w-75 ">
                                    <div class="progress-bar bg-skin" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                                  </div>
@@ -140,8 +140,113 @@
                             </div>
                            </div>
 
+                    </div>              
+              </section>            
+              <!-- about-->
+
+              <section class="p-2">
+                <div class="text-center p-3">
+                    <h1 class="about fw-bold">Sobre Mi  </h1>
+                    <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ut nihil recusandae 
+                        nesciunt repudiandae numquam. Quam laudantium praesentium magnam officia iste dolor nemo
+                         aspernatur dolorum. Fuga eius omnis unde.</P>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 p-3">
+                    <div class="col py-3">
+                        <div class="">
+                            <h2 class="about fw-bold">Educación  </h2>
+                            <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                            <h4 class="fw-bold">2019-2022</h4>
+                            <h6 class="fw-bold">TECNICATURA EN PROGRAMACION UTN</h6>
+                            <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing 
+                            </P>
+                            <h4 class="fw-bold">2022-</h4>
+                            <h6 class="fw-bold">TECNICATURA EN SISTEMAS INMFORMATICOS UTN</h6>
+                            <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            <h4 class="fw-bold">2023</h4>
+                            <h6 class="fw-bold">Desarrollo fullstack Java</h6>
+                            <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                        </div>
+
+                    </div>
+                    <div class="col py-3">
+                        <h2 class="fw-bold my-3">Conocimientos</h2>
+                        <div class="row row-cols-1 row-cols-sm-2 ">
+                            <div class="col  ">
+                                 <div class="container my-2">
+                                    <h6>JAVA</h6>
+                                    <div class="progress w-75 ">
+                                        <div class="progress-bar bg-skin" role="progressbar" style="width:70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                      </div>
+    
+                                 </div>
+                                 <div class="container my-2">
+                                    <h6>C#</h6>
+                                    <div class="progress w-75 ">
+                                        <div class="progress-bar bg-skin" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                      </div>
+    
+                                 </div>
+                                 <div class="container my-2">
+                                    <h6>SQL</h>
+                                    <div class="progress w-75 ">
+                                        <div class="progress-bar bg-skin" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                      </div>
+    
+                                 </div>
+                            
+                                <div class="container my-2">
+                                   <h6>HTML</h6>
+                                   <div class="progress w-75 ">
+                                       <div class="progress-bar bg-skin" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                     </div>
+   
+                                </div>
+                                <div class="container my-2">
+                                   <h6>CSS</h6>
+                                   <div class="progress w-75 ">
+                                       <div class="progress-bar bg-skin" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                     </div>
+   
+                                </div>
+                                <div class="container my-2">
+                                   <h6>JS</h6>
+                                   <div class="progress w-75 ">
+                                       <div class="progress-bar bg-skin" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                     </div>
+   
+                                </div>
+                           </div>
+                           <div class="col ">
+                            <div class="container my-2">
+                               <h6>SPRING BOOT</h6>
+                               <div class="progress w-75 ">
+                                   <div class="progress-bar bg-skin" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                 </div>
+
+                            </div>
+                            <div class="container">
+                               <h6>BOOTSTRAP</h6>
+                               <div class="progress w-75 ">
+                                   <div class="progress-bar bg-skin" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                 </div>
+
+                            </div>
+                            <div class="container ">
+                               <h6>GIT</h6>
+                               <div class="progress w-75 ">
+                                   <div class="progress-bar bg-skin" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                 </div>
+
+                            </div>
+                           </div>
+
+                    </div>  
                     </div>
                 </div>
+               
               </section>
         </div>
 

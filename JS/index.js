@@ -14,13 +14,20 @@ const close=document.querySelector(".close-btn");
 const open=document.querySelector(".open-btn");
 
 open.addEventListener("click",() => {
-     navbar.classList.add("active");
+
+    if (navbar.classList[3]=="active"){
+        navbar.classList.remove("active");
+    }
+    else{
+        navbar.classList.add("active");
+    }
+
      console.log(navbar.classList);
 })
 
-close.addEventListener("click",() => {
-    navbar.classList.remove("active");
-})
+// close.addEventListener("click",() => {
+//     navbar.classList.remove("active");
+// })
 
 
 
