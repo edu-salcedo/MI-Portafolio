@@ -18,7 +18,7 @@
      <!-- main container-->
      <div class=" d-flex position-relative">
         <!-- navbar lateral -->
-        <div class="sidebar row justify-content-centerbg-warning" id="side-nav">
+        <div class="sidebar row justify-content-centerbg-warning " id="side-nav">
             <div class="header-box d-flex ">
                 <h1 class="fs-4 m-auto logo "> <span class="">E</span>duS</h1>
                 <div class="d">
@@ -34,13 +34,14 @@
             </ul>
         </div>
         <!-- seccion principal -->
-        <div class="position-absolute end-0">
-            <button class="d-md-none btn open-btn me-2">
-                <i class="fa-solid fa-bars "></i>
-              </button>
-          </div>
-        <div class="content d-flex align-items-center">
-              <section class="home hidden">
+        <div class="">
+              <div class="position-absolute end-0">
+                <button class="d-md-none btn open-btn me-2">
+                    <i class="fa-solid fa-bars "></i>
+                  </button>
+              </div>
+              <div class="content ">
+                  <section class=" home">
                 <div class="px-5">
                     <div class="row  align-items-center pe-5 ">
                         <div class="home-info col col-sm-12  col-md-6 col-lg-8 ">
@@ -59,9 +60,9 @@
                         </div>
                     </div>
                 </div>
-              </section>
-               <!-- seccion skills-->
-              <section class="bg-info container mx-3 hidden">       
+                  </section>
+                   <!-- seccion skills-->
+                  <section class="bg-info container mx-3 hidden">       
                     <div class="">
                         <h1 class="tittle">Conocimientos </h1>
                         <p class="parrafo">
@@ -141,10 +142,10 @@
                            </div>
 
                     </div>              
-              </section>            
-              <!-- seccion sobre mi-->
-
-              <section class="p-2 hidden">
+                  </section>            
+                  <!-- seccion sobre mi-->
+    
+                  <section class="p-2 about ">
                 <div class="text-center p-3">
                     <h1 class="about fw-bold">Sobre Mi  </h1>
                     <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ut nihil recusandae 
@@ -247,58 +248,62 @@
                     </div>
                 </div>
                
-              </section>
-                <!-- seccion proyectos-->
-              <section class="container">
-                <div class="w-100 bg-info">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                        <div class="col bg-success">
-                           <div class="mycard">
+                  </section>
+                    <!-- seccion proyectos-->
+                  <section class="container">
+                <div class="w-100 ">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+                        <div class="col py-3 ">
+                           <div class="mycard m-auto">
                               <div class="face front">
-                                 <img src="img/resto.png" alt="">
-                                 <h3>juego de naves</h3>
+                                 <img src="img/resto.png
+                                 " alt="">
+                                 <h4>Manage Resto</h4>
                               </div>
                               <div class="face back">
-                                 <h3>juego de naves</h3>
+                                 <h4>Manage resto</h4>
                                  <p class="algo">
-                                    Lorem ipsum, dolor sit aam minima sint porro. Nemo quisquam tempore hic.
+                                  Aplicacion de consola uno de mis primeros trabajos para administrar un retaurante.
+                                  Hecho con el lenguaje c++..
                                  </p>
                                  <div class="link">
-                                    <a href="#">details</a>
+                                    <a href="#">ver repositorio</a>
                                  </div>
                               </div>
                           </div>                        
                         </div>
-                        <div class="col bg-secondary">
-                            <div class="mycard">
+                        <div class="col  py-3">
+                            <div class="mycard m-auto">
                                <div class="face front">
                                   <img src="img/space.png" alt="">
-                                  <h3>juego de naves</h3>
+                                  <h4>space invader</h4>
                                 </div>
                                 <div class="face back">
-                                   <h3>juego de naves</h3>
+                                   <h4>juego de naves</h4>
                                    <p class="algo">
-                                      Lorem ipsum, dolor sit aam minima sint porro. Nemo quisquam tempore hic.
+                                      Proyecto video juego hecho con la libreria allegro, con el lenguaje c++ y base de datos sql.
                                     </p>
                                     <div class="link">
-                                       <a href="#">details</a>
+                                       <a href="#">ver repositorio</a>
                                     </div>
                                  </div>
                              </div>                        
                        </div>
-                        <div class="col">
-                          <div class="mycard">
+                        <div class="col py-3">
+                          <div class="mycard m-auto">
                             <div class="face front">
                                <img src="img/gestor.png" alt="">
-                               <h3>juego de naves</h3>
+                               <h4>Gestor de articulos</h4>
                              </div>
-                             <div class="face back">
-                                <h3>juego de naves</h3>
+                             <div class="face back ">
+                                <h4>Gestor de articulos</h4>
                                 <p class="algo">
-                                   Lorem ipsum, dolor sit aam minima sint porro. Nemo quisquam tempore hic.
+                                   Aplicacion de escritorio para administrar una tienda de articulos electronicos.
+                                   Hecho con el lenguaje c# y base de datos SQL. 
+
                                  </p>
                                  <div class="link">
-                                    <a href="#">details</a>
+                                    <a href="#" class="m-auto">ver repositorio</a>
                                  </div>
                               </div>
                           </div>   
@@ -307,7 +312,8 @@
                         </div>
                     </div>
                 </div>
-              </section>
+                  </section>
+              </div>
         </div>
 
      </div>
