@@ -27,10 +27,10 @@
             </div>
             <ul class="list-unstyled px-4 ">
                 <li class="nav-item active"><a href="#" class="text-decoration-none"><i class="fa fa-home me-2"></i>Home</a></li>
-                <li class="nav-item"><a href="#" class="text-decoration-none"><i class="fa fa-user me-2"></i>About</a></li>
+                <li class="nav-item"><a href="#about" class="text-decoration-none"><i class="fa fa-user me-2"></i>About</a></li>
                 <li class="nav-item"><a href="#" class="text-decoration-none"><i class="fa-solid fa-microchip me-2"></i>Skills</a></li>
-                <li class="nav-item"><a href="#" class="text-decoration-none"><i class="fa-regular fa-folder-open me-2"></i>Projects</a></li>
-                <li class="nav-item"><a href="#" class="text-decoration-none"><i class="fa fa-comment me-2"></i>Contact</a></li>
+                <li class="nav-item"><a href="#project" class="text-decoration-none"><i class="fa-regular fa-folder-open me-2"></i>Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="text-decoration-none"><i class="fa fa-comment me-2"></i>Contact</a></li>
             </ul>
         </div>
         <!-- seccion principal -->
@@ -42,24 +42,24 @@
               </div>
               <div class="content ">
                   <section class=" home">
-                <div class="px-5">
-                    <div class="row  align-items-center pe-5 ">
-                        <div class="home-info col col-sm-12  col-md-6 col-lg-8 ">
-                            <h3 class="fw-bold">Hola, mi nombre es <span class="Myname">Edwin Salcedo</span></h3>
-                            <h3 class="fw-bold">Soy <span class="profession">programador full stack</span></h3>
-                            <p class="fs-5 fst-italic">soy graduado de la tecnicatura en programacion de la UTN, he desarrolldo diversos proyectos  al lo largo de mi etapa de estudiante
-                                y haora busco poner en practica los conocimientos adquiridos con ganas de seguir creciendo en un entorno laboral.  
-                            </p>
-                            <button class="btn-cv fw-bold mb-5">Descargar CV</button>
-                        </div>
-                        <div class="col col-sm-12  col-md-6 col-lg-4  ">
-                            <div class="position-relative home-img  m-auto">
-                                <img src="img/foto.png" style="width: 20rem;" class="bg-dark" alt="">
+                      <div class="px-5">
+                          <div class="row  align-items-center pe-5 ">
+                              <div class="home-info col col-sm-12  col-md-6 col-lg-8 ">
+                                  <h3 class="fw-bold">Hola, mi nombre es <span class="Myname">Edwin Salcedo</span></h3>
+                                  <h3 class="fw-bold">Soy <span class="profession">programador full stack</span></h3>
+                                  <p class="fs-5 fst-italic">soy graduado de la tecnicatura en programacion de la UTN, he desarrolldo diversos proyectos  al lo largo de mi etapa de estudiante
+                                      y ahora busco poner en practica los conocimientos adquiridos con ganas de seguir creciendo en un entorno laboral.  
+                                  </p>
+                                  <button class="btn-cv fw-bold mb-5">Descargar CV</button>
+                              </div>
+                              <div class="col col-sm-12  col-md-6 col-lg-4  ">
+                                  <div class="position-relative home-img  m-auto">
+                                      <img src="img/foto.png" style="width: 20rem;" class="bg-dark" alt="">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                   </section>
                    <!-- seccion skills-->
                   <section class="bg-info container mx-3 hidden">       
@@ -145,17 +145,17 @@
                   </section>            
                   <!-- seccion sobre mi-->
     
-                  <section class="p-2 about ">
-                <div class="text-center p-3">
+                  <section class="p-2 about " id="about">
+                    <div class="text-center p-3">
                     <h1 class="about fw-bold">Sobre Mi  </h1>
                     <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ut nihil recusandae 
                         nesciunt repudiandae numquam. Quam laudantium praesentium magnam officia iste dolor nemo
                          aspernatur dolorum. Fuga eius omnis unde.</P>
-                </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 p-3">
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 p-3">
                     <div class="col py-3">
                         <div class="">
-                            <h2 class="about fw-bold">Educación  </h2>
+                            <h3 class="about fw-bold">Educación  </h3>
                             <P class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             </P>
                             <h4 class="fw-bold">2019-2022</h4>
@@ -173,7 +173,7 @@
 
                     </div>
                     <div class="col py-3">
-                        <h2 class="fw-bold my-3">Conocimientos</h2>
+                        <h3 class="fw-bold my-3">Conocimientos</h3>
                         <div class="row row-cols-1 row-cols-sm-2 ">
                             <div class="col  ">
                                  <div class="container my-2">
@@ -246,12 +246,13 @@
 
                     </div>  
                     </div>
-                </div>
+                    </div>
                
                   </section>
                     <!-- seccion proyectos-->
-                  <section class="container">
-                <div class="w-100 ">
+                  <section class="container my-3" id="project">
+                    <h1 class="about fw-bold text-center my-3">Proyectos  </h1>
+                    <div class="w-100  ">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
                         <div class="col py-3 ">
                            <div class="mycard m-auto">
@@ -311,11 +312,36 @@
                       
                         </div>
                     </div>
-                </div>
+                    </div>
+                  </section>
+                      <!-- seccion contacto -->
+                  <section class="p-5 mx-5 " id="contact">
+                    <h1 class="about fw-bold text-center my-4">contactame </h1>
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                      </div>
+                      <div class="col-12 text-center">
+                        <button type="submit" class="btn-cv fw-bold mb-5 px-3">enviar</button>
+                      </div>
+                    </form>
+
                   </section>
               </div>
         </div>
-
      </div>
     <script src="JS/index.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
